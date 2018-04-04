@@ -1,0 +1,131 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+html {
+  font-size: 18px;
+}
+
+
+/* header section  */
+
+header {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+
+header div {
+  background-color: black;
+  display: flex;
+  width: 960px;
+  align-items: center;
+}
+
+.company-name {
+  font-family: Helvetica;
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.container img {
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+}
+
+/* banner section */
+
+.banner {
+  display: flex;
+  background-image: url("../../resources/images/moto.jpeg");
+  height: 25rem;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+}
+
+.headline {
+  margin-top: 9rem;
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  justify-content: center;
+  color: white;
+}
+
+.titre {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: black;
+  width: 20rem;
+  padding: 2rem 3rem 0.25rem 3rem;
+  text-transform: uppercase;
+}
+
+.sous-titre {
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 0.25rem;
+  background-color: black;
+  width: 20rem;
+  padding: 0 3rem 2rem 3rem;
+  text-transform: uppercase;
+}
+
+/* navigation section */
+
+nav {
+  display: flex;
+  background-color: firebrick;
+  justify-content: center;
+}
+
+nav div {
+  display: flex;
+  justify-content: space-between;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  width: 960px;
+}
+
+nav span {
+
+}
+
+/* main section */
+.main {
+  max-width: 960px;
+  display: flex;
+
+}
+.products {
+  display: inline-flex;
+
+
+}
+
+
+/* footer section */
+footer {
+  display: flex;
+  height: 5rem;
+  background-color: black;
+  text-align: left;
+  color: white;
+  /* justify-content: center; */
+  align-items: center;
+  /* max-width: 960px; */
+}
