@@ -121,10 +121,9 @@ nav div {
 
 .first-row img {
   display: flex;
-  height: 9rem;
-  width: auto;
+  height: auto;
+  width: 30%;
   padding: 2rem;
-
 }
 
 .first-row div {
@@ -132,9 +131,8 @@ nav div {
   flex-direction: column;
   width: 30%;
   border: 4px solid black;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-
 }
 
 .first-row p {
@@ -148,34 +146,35 @@ nav div {
   width: 100%;
 }
 
-.second-row {
+.rows {
   display: flex;
-  margin-bottom: 3rem;
-  justify-content: space-between;
-  color: white;
-  font-family: Helvetica;
+  flex-direction: column;
+}
+.second-row, .third-row {
   width: 960px;
-
-}
-.second-row div {
-width: 35%;
-}
-
-.first, .second {
-padding-left: 2rem;
-padding-top: 1rem;
-padding-bottom: 1rem;
-background-color: black;
-color: white;
+  font-family: Helvetica;
+  display: flex;
+  justify-content: space-between;
 
 }
 
-.second-row p {
+.second-row span {
+  width: 35%;
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+
+.third-row span {
+  width: 35%;
   background-color: white;
   color: black;
-
+  margin-bottom: 4rem;
+  padding-left: 0;
 }
-
 
 /* footer section */
 footer {
